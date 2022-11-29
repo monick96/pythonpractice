@@ -1,3 +1,3 @@
 # pythonpractice
-rock paper scissors game
-Practica de python, en main se ecuentra el juego
+rock paper scissors game.
+Practica de Python, en main se ecuentra el juego
