@@ -8,15 +8,13 @@ user_name = user_name.capitalize()
 
 
 def validate_option(user_option, options):
-
-  user_option = user_option.lower()
-
-  while user_option not in options:
-    print(user_name, 'Esa opcion no es valida')
-    user_option = input('Piedra, Papel o Tijera=> ')
     user_option = user_option.lower()
+    while user_option not in options:
+        print(user_name, 'Esa opcion no es valida')
+        user_option = input('Piedra, Papel o Tijera=> ')
+        user_option = user_option.lower()
+        return user_option
     return user_option
-  return user_option
 
 
 def choose_options():
